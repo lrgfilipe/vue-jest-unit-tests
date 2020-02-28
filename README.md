@@ -6,7 +6,7 @@ npm install
 npm run serve
 ```
 
-### Run your unit tests
+### Run unit tests
 ```
 npm run test:unit
 ```
