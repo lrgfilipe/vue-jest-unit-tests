@@ -3,7 +3,7 @@
     <div class="content">
       <div class="lengthItem">
         Session length
-        <counter :incrementAmount="1" :val="sessionLength" @input="sessionLength = $event" />
+        <counter :val="sessionLength" @input="sessionLength = $event" />
       </div>
        <div class="lengthItem">
         Break length
