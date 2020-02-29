@@ -1,5 +1,5 @@
 
-# VueJs + Jest Simple-unit-tests
+# VueJs + Jest (Simple-unit-tests)
 
 ## Project setup
 ```
