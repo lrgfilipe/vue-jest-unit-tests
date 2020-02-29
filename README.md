@@ -16,6 +16,14 @@ npm run serve
 npm run test:unit
 ```
 #### Counter.vue
+ - [ ] **User Story #1:** Props
+ - [ ] **User Story #2:** + Simbol increments counter value by 'incrementAmount' prop
+ - [ ] **User Story #3:** - Simbol decrements counter value by 'incrementAmount' prop
+ - [ ] **User Story #4:** When prop 'allowNegative' is false, 'counter' cant be negative
+ - [ ] **User Story #5:** When prop 'allowNegative' is true, 'counter' can be negative
+ - [ ] **User Story #4:** When value changes the event 'input' is emited with the value
+
+
 #### CountdownTimer.vue
 #### PipelineStatus.vue
 #### Pomodoro.vue
