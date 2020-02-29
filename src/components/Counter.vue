@@ -1,7 +1,7 @@
 <template>
     <div class="btnWrapper">
       <button ref="increment" class="btn" @click="increment()">+</button>
-      <div class="btn">{{ counter }}</div>
+      <div ref="counter" class="btn">{{ counter }}</div>
       <button ref="decrement" class="btn" @click="decrement()">-</button>
     </div>
 </template>

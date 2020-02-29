@@ -1,36 +1,46 @@
-//import { mount } from '@vue/test-utils'
-//import Counter from '../../src/components/Counter.vue'
-//import Vue from 'vue'
+import { mount } from '@vue/test-utils'
+import Counter from '../../src/components/Counter.vue'
+import Vue from 'vue'
 
 describe('Counter.vue', () => {
-/*
-  const wrapper = mount(Counter)
-  const counter = wrapper.find('.counter')
+
+  const wrapper = mount(Counter, {
+    propsData: { incrementAmount: 5, allowNegative: false, val: 10 }
+  })
+  const counter = wrapper.find({ ref: 'counter' })
   const incrementBtn = wrapper.find({ ref: 'increment' })
   const decrementBtn = wrapper.find({ ref: 'decrement' })
-  const resetBtn = wrapper.find({ ref: 'reset' })
 
-  /*
-  test('clicking button "increment" increments the counter value by 1', async () => {
-    expect(counter.text()).toContain('0')
+
+  test('Props', () =>{
+    expect(wrapper.props().incrementAmount).toBe(5)
+    expect(wrapper.props().allowNegative).toBe(false)
+  })
+
+  test('+ Simbol increments counter value by "incrementAmount" prop', async () =>{
+    expect(counter.text()).toContain('10')
     incrementBtn.trigger('click')
     await Vue.nextTick()
-    expect(counter.text()).toContain('1')
+    expect(counter.text()).toContain('15')
   })
 
-  test('clicking button "reset" resets the counter to "0"', async () => {
-    expect(counter.text()).toContain('1')
-    resetBtn.trigger('click')
-    await Vue.nextTick()
-    expect(counter.text()).toContain('0')
-  })
-
-  test('clicking button "decrement" decrements the counter value by 1', async () => {
-    expect(counter.text()).toContain('0')
+  test('- Simbol decrements counter value by "incrementAmount" prop', async () =>{
+    expect(counter.text()).toContain('15')
     decrementBtn.trigger('click')
     await Vue.nextTick()
-    expect(counter.text()).toContain('-1')
+    expect(counter.text()).toContain('10')
   })
-  */
+
+  test('When prop "allowNegative" is false, "counter" cant be negative', () =>{
+    
+  })
+
+  test('When prop "allowNegative" is true, "counter" can be negative', () =>{
+    
+  })
+
+  test('When value changes the event "input" is emited with the value', () =>{
+    
+  })
 
 })
