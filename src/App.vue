@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="content">
-    <pomodoro />
+    <Pomodoro />
   </div>
 </template>
 
