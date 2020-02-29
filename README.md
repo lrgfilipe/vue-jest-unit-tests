@@ -1,6 +1,8 @@
 
 # VueJs + Jest (Simple-unit-tests)
 
+![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
+
 Simple app to gain experience on Jest tests.
 
 ## Project setup
