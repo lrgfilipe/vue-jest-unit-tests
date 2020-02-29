@@ -5,7 +5,7 @@
 
 Simple app to gain experience on Jest tests.
 
-## Project setup
+### Project setup
 ```
 npm install
 npm run serve
@@ -15,8 +15,12 @@ npm run serve
 ```
 npm run test:unit
 ```
+#### Counter.vue
+#### CountdownTimer.vue
+#### PipelineStatus.vue
+#### Pomodoro.vue
 
 
-### MIT License
+#### MIT License
 
 Copyright (c) 2020 Luis Filipe
