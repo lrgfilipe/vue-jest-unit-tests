@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Counter from './counter.vue'
+import Counter from './Counter.vue'
 import CountdownTimer from './countdown-timer.vue'
 import PipelineStatus from './pipeline-status.vue'
 export default {
