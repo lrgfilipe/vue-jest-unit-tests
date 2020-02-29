@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="counter">
-      counter: {{counter}}
-    </div>
-    <button @click="counter++">Increment</button>
+    <div>counter: <span class="counter">{{counter}}</span></div>
+    <button ref="increment" @click="counter++">Increment</button>
+    <button ref="decrement" @click="counter--">Decrement</button>
+    <button ref="reset" @click="counter = 0">Reset</button>
   </div>
 </template>
 
