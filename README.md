@@ -1,6 +1,8 @@
 
 # VueJs + Jest (Simple-unit-tests)
 
+Simple app to gain experience on Jest tests.
+
 ## Project setup
 ```
 npm install
