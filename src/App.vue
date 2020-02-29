@@ -1,15 +1,20 @@
 <template>
-  <div id="app">
-    <Counter/>
+  <div id="app" class="content">
+    <pomodoro />
   </div>
 </template>
 
 <script>
-import Counter from './components/Counter'
+import Pomodoro from './components/pomodoro.vue'
 export default {
   name: 'App',
   components: {
-    Counter
+    Pomodoro
   }
 }
 </script>
+<style scoped>
+.content {
+   color:white;
+}
+</style>

@@ -13,21 +13,21 @@ describe('Counter.vue', () => {
   test('clicking button "increment" increments the counter value by 1', async () => {
     expect(counter.text()).toContain('0')
     incrementBtn.trigger('click')
-    await Vue.nextTick() // very important
+    await Vue.nextTick()
     expect(counter.text()).toContain('1')
   })
 
   test('clicking button "reset" resets the counter to "0"', async () => {
     expect(counter.text()).toContain('1')
     resetBtn.trigger('click')
-    await Vue.nextTick() // very important
+    await Vue.nextTick()
     expect(counter.text()).toContain('0')
   })
 
   test('clicking button "decrement" decrements the counter value by 1', async () => {
     expect(counter.text()).toContain('0')
     decrementBtn.trigger('click')
-    await Vue.nextTick() // very important
+    await Vue.nextTick()
     expect(counter.text()).toContain('-1')
   })
 
