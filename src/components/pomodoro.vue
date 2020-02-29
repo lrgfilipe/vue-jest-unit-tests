@@ -15,11 +15,12 @@
   </div>
 </template>
 
-<script>
+<script> 
 import Counter from './Counter.vue'
 import CountdownTimer from './countdown-timer.vue'
 import PipelineStatus from './pipeline-status.vue'
 export default {
+  name: 'Pomodoro',
   components: { Counter, CountdownTimer, PipelineStatus },
   props: {
     session: { type: Number, default: 25 },
