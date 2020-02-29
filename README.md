@@ -12,6 +12,6 @@ npm run serve
 npm run test:unit
 ```
 
- - [ ] clicking button "increment" increments the counter value by 1
- - [ ] clicking button "reset" resets the counter to "0"
- - [ ] clicking button "decrement" decrements the counter value by 1
+ - [X] clicking button "increment" increments the counter value by 1
+ - [X] clicking button "reset" resets the counter to "0"
+ - [X] clicking button "decrement" decrements the counter value by 1
