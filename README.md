@@ -8,7 +8,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/vue-jest-unit-tests?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/lrgfilipe/vue-jest-unit-tests?style=social)
 
-![](https://raw.githubusercontent.com/lrgfilipe/vue-jest-unit-tests/master/public/screen.png =250x)
+![](https://raw.githubusercontent.com/lrgfilipe/vue-jest-unit-tests/master/public/screen.png | width=250)
 
 Simple Pomodoro Timer app to gain experience on Jest tests.
 
