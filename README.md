@@ -29,7 +29,7 @@ npm run test:unit
 ```
 Only running converage stats on components for now -> "collectCoverageFrom": ["src/components/*.vue"]
 
-#### Counter.vue
+#### Counter.vue 
  - [X] **Test #1:** Props
  - [X] **Test #2:** + Simbol increments counter value by 'incrementAmount' prop
  - [X] **Test #3:** - Simbol decrements counter value by 'incrementAmount' prop
@@ -37,15 +37,14 @@ Only running converage stats on components for now -> "collectCoverageFrom": ["s
  - [X] **Test #5:** When prop 'allowNegative' is true, 'counter' can be negative
  - [X] **Test #6:** When value changes the event 'input' is emited with the value
 
-#### CountdownTimer.vue
+
+#### CountdownTimer.vue 
 - [X] **Test #1:** Props
 - [X] **Test #2:** Tap to Start button, starts timer
 - [X] **Test #3:** Tap to Pause button, stops timer
 - [X] **Test #4:** Reset button, resets timmer value
 - [X] **Test #5:** Start of timer emits event 'start' with no payload
 - [X] **Test #6:** End of timer emits event "end" with no payload
-
-#### PipelineStatus.vue
 
 #### Pomodoro.vue
 
