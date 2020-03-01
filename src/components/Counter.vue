@@ -9,7 +9,7 @@
 <script>
 export default {
   props: {
-    val: { type: Number, default: 0 },
+    val: { type: Number, default: 10 },
     incrementAmount: { type: Number, default: 5 },
     allowNegative: { type: Boolean, default: false }
   },

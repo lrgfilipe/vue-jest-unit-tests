@@ -3,5 +3,8 @@ module.exports = {
   "transform": {
     "^.+\\.vue$": "vue-jest",
     "^.+\\.js$": "babel-jest"
-  }
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": ["**/*.{js,vue}"],
+  "coverageReporters": ["html", "text-summary"]
 }

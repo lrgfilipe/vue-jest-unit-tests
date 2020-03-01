@@ -37,11 +37,11 @@ export default {
     },
     minutes: function() {
       var min = Math.floor(this.totalTime / 60)
-      return min >= 10 ? min : '0' + min
+      return min >= 10 ? min + '' : '0' + min
     },
     seconds: function() {
       var sec = this.totalTime - (this.minutes * 60)
-      return sec >= 10 ? sec : '0' + sec;
+      return sec >= 10 ? sec + '' : '0' + sec;
     }
   },
   methods: {
