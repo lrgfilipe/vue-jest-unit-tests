@@ -1,4 +1,5 @@
 
+
 # VueJs + Jest (Simple-unit-tests)
 
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
@@ -7,10 +8,12 @@
 ![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/vue-jest-unit-tests?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/lrgfilipe/vue-jest-unit-tests?style=social)
 
-
-
+![](https://raw.githubusercontent.com/lrgfilipe/vue-jest-unit-tests/master/public/screen.png =250x)
 
 Simple Pomodoro Timer app to gain experience on Jest tests.
+
+
+
 
 
 ### Project setup
