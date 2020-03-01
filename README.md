@@ -2,7 +2,7 @@
 # VueJs + Jest (Simple-unit-tests)
 
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/lrgfilipe/vue-jest-unit-tests)
+![](https://img.shields.io/github/last-commit/lrgfilipe/vue-jest-unit-tests)
 ![](https://img.shields.io/github/commits/lrgfilipe/vue-jest-unit-tests.svg)
 ![](https://img.shields.io/github/licence/lrgfilipe/vue-jest-unit-tests.svg)
 
