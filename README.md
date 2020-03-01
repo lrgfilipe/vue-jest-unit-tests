@@ -44,13 +44,7 @@ Skipped | `0` | `0` | `0` | `0`
  - [X] **Test #6:** When value changes the event 'input' is emited with the value
 
 
-CountdownTimer.vue | Lines | Funcions | Statements | Branches
---- | --- | --- | --- | --- 
-Total | `X` | `X` | `X` | `X`
-Covered | `X` | `X` | `X` | `X`
-Skipped | `X` | `X` | `X` | `X`
-% | `X %` | `X %` | `X %` | `X %`
-
+#### CountdownTimer.vue 
 - [X] **Test #1:** Props
 - [X] **Test #2:** Tap to Start button, starts timer
 - [X] **Test #3:** Tap to Pause button, stops timer
