@@ -3,9 +3,6 @@
 
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
 ![](https://img.shields.io/github/last-commit/lrgfilipe/vue-jest-unit-tests)
-![](https://img.shields.io/github/commits/lrgfilipe/vue-jest-unit-tests.svg)
-![](https://img.shields.io/github/licence/lrgfilipe/vue-jest-unit-tests.svg)
-
 ![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/vue-jest-unit-tests?style=social)
 
 
