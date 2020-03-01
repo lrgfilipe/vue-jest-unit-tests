@@ -29,13 +29,7 @@ npm run test:unit
 ```
 Only running converage stats on components for now -> "collectCoverageFrom": ["src/components/*.vue"]
 
-Counter.vue | Lines | Funcions | Statements | Branches
---- | --- | --- | --- | --- 
-Total | `7` | `3` | `7` | `4`
-Covered | `6` | `3` | `6` | `3`
-Skipped | `0` | `0` | `0` | `0`
-% | `85.71 %` | `100 %` | `85.71 %` | `75 %`
-
+#### Counter.vue 
  - [X] **Test #1:** Props
  - [X] **Test #2:** + Simbol increments counter value by 'incrementAmount' prop
  - [X] **Test #3:** - Simbol decrements counter value by 'incrementAmount' prop
