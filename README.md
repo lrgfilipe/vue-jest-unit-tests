@@ -3,7 +3,7 @@
 
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
+[![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/lrgfilipe/StrapDown.js/network/)
 
 
 Simple Pomodoro Timer app to gain experience on Jest tests.
