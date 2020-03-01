@@ -4,6 +4,7 @@
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/vue-jest-unit-tests?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/lrgfilipe/vue-jest-unit-tests)
 
 
 
