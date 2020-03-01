@@ -10,7 +10,7 @@
         <counter :val="breakLength" @input="breakLength = $event" />
       </div>
     </div>
-    <pipeline-status :pipeline="pipeline" />
+    <div class="status">{{ inSession ? 'Session' : 'Break' }}</div>
     <countdown-timer :min="timer" @start="timerAction('start')" @end="timerAction('end')" @reset="updatePipeline()" />
   </div>
 </template>
@@ -18,9 +18,8 @@
 <script> 
 import Counter from './Counter.vue'
 import CountdownTimer from './CountdownTimer.vue'
-import PipelineStatus from './PipelineStatus.vue'
 export default {
-  components: { Counter, CountdownTimer, PipelineStatus },
+  components: { Counter, CountdownTimer },
   props: {
     session: { type: Number, default: 25 },
     break: { type: Number, default: 5 }
@@ -30,6 +29,7 @@ export default {
       sessionLength: this.session, // min
       breakLength: this.break, // min
       timer: this.session,
+      inSession: true,
       pipeline: [
         { session: { done: false, time: this.session }, break: { done: false, time: this.break } },
         { session: { done: false, time: this.session }, break: { done: false, time: this.break } },
@@ -97,5 +97,10 @@ export default {
     background: #f6ad55;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     border-radius: 0.5rem;
+  }
+  .status {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
   }
 </style>

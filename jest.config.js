@@ -5,6 +5,6 @@ module.exports = {
     "^.+\\.js$": "babel-jest"
   },
   "collectCoverage": true,
-  "collectCoverageFrom": ["src/components/*.vue"], // ["**/*.{js,vue}"],
+  "collectCoverageFrom": ["src/components/Counter.vue"], // ["**/*.{js,vue}"],
   "coverageReporters": ["text-summary", "json-summary"]
 }
