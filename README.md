@@ -5,6 +5,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lrgfilipe/vue-jest-unit-tests)
 ![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/vue-jest-unit-tests?style=social)
+![GitHub stars](https://img.shields.io/github/stars/lrgfilipe/vue-jest-unit-tests?style=social)
 
 
 
