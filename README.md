@@ -2,8 +2,11 @@
 # VueJs + Jest (Simple-unit-tests)
 
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-Simple app to gain experience on Jest tests.
+
+Simple Pomodoro Timer app to gain experience on Jest tests.
+
 
 ### Project setup
 ```
@@ -15,6 +18,8 @@ npm run serve
 ```
 npm run test:unit
 ```
+Only running converage stats on components for now -> "collectCoverageFrom": ["src/components/*.vue"]
+
 #### Counter.vue
  - [X] **Test #1:** Props
  - [X] **Test #2:** + Simbol increments counter value by 'incrementAmount' prop
