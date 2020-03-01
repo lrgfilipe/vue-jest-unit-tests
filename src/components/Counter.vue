@@ -18,19 +18,23 @@ export default {
       counter: this.val
     }
   },
+  watch: {
+    val () {
+      this.counter = this.val
+    },
+    counter () {
+      this.$emit('input', this.counter)
+    }
+  },
   methods: {
     increment (){
       this.counter += this.incrementAmount
-      this.$emit('input', this.counter)
+      
     },
     decrement (){
-      if(!this.allowNegative && this.counter - this.incrementAmount < 0 ){
-        this.counter = 0
-      }
-      else {
-        this.counter -= this.incrementAmount
-      }
-      this.$emit('input', this.counter)
+      this.counter = (!this.allowNegative && this.counter - this.incrementAmount <= 0) ?
+      0 :
+      this.counter - this.incrementAmount
     }
   }
 }

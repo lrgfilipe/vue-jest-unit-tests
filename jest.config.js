@@ -6,5 +6,5 @@ module.exports = {
   },
   "collectCoverage": true,
   "collectCoverageFrom": ["src/components/*.vue"], // ["**/*.{js,vue}"],
-  "coverageReporters": ["text-summary", "json-summary", "html", "json"]
+  "coverageReporters": ["text-summary", "html"]
 }
