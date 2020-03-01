@@ -3,7 +3,7 @@
 
 ![Node.js CI](https://github.com/lrgfilipe/vue-jest-unit-tests/workflows/Node.js%20CI/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![](https://img.shields.io/github/release/PalatinCoder/DuttweilerApp/all.svg)
+![](https://img.shields.io/github/release/PalatinCoder/DuttweilerApp.svg)
 
 Simple Pomodoro Timer app to gain experience on Jest tests.
 
