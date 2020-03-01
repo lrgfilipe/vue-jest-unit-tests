@@ -58,8 +58,6 @@ Skipped | `X` | `X` | `X` | `X`
 - [X] **Test #5:** Start of timer emits event 'start' with no payload
 - [X] **Test #6:** End of timer emits event "end" with no payload
 
-#### PipelineStatus.vue
-
 #### Pomodoro.vue
 
 
