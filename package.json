@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "make-badges": "node_modules/.bin/jest-badges-readme",
+    "make-readme": "npm run test:coverage && npm run make-badges"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -14,6 +16,7 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@olavoparno/jest-badges-readme": "^1.4.1",
     "@vue/cli-plugin-babel": "^4.2.0",
     "@vue/cli-plugin-eslint": "^4.2.0",
     "@vue/cli-plugin-unit-jest": "^4.2.0",
